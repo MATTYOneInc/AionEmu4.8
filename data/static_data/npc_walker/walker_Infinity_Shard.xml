@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc_walker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="npc_walker.xsd">
+	<walker_template pool="1" route_id="A2142518112">
+		<routestep step="1" x="141.52344" y="155.88562" z="121.98148"/>
+		<routestep step="2" x="135.98645" y="158.15436" z="120.50218"/>
+		<routestep step="3" x="129.14023" y="158.77403" z="118.36657"/>
+		<routestep step="4" x="122.2751" y="157.44235" z="116.34211"/>
+		<routestep step="5" x="118.21863" y="154.7983" z="114.93594"/>
+		<routestep step="6" x="111.67458" y="150.54143" z="113.28891"/>
+		<routestep step="7" x="118.21863" y="154.7983" z="114.93594"/>
+		<routestep step="8" x="122.2751" y="157.44235" z="116.34211"/>
+		<routestep step="9" x="129.14023" y="158.77403" z="118.36657"/>
+		<routestep step="10" x="135.98645" y="158.15436" z="120.50218"/>
+	</walker_template>
+	<walker_template pool="1" route_id="B2142518141">
+		<routestep step="1" x="118.76277" y="118.176926" z="121.50391"/>
+		<routestep step="2" x="125.90102" y="116.490295" z="119.44212"/>
+		<routestep step="3" x="132.80086" y="116.24457" z="117.43405"/>
+		<routestep step="4" x="138.41873" y="118.160385" z="115.77436"/>
+		<routestep step="5" x="142.44357" y="120.83423" z="114.58983"/>
+		<routestep step="6" x="138.41873" y="118.160385" z="115.77436"/>
+		<routestep step="7" x="132.80086" y="116.24457" z="117.43405"/>
+		<routestep step="8" x="125.90102" y="116.490295" z="119.44212"/>
+	</walker_template>
+	<walker_template route_id="3AE5EA877BC596C2" pool="1">
+		<routestep step="1" x="135.99" y="158.15" z="121.999626"/>
+		<routestep step="2" x="129.14" y="158.77" z="119.999626"/>
+		<routestep step="3" x="122.28" y="157.44" z="118.999626"/>
+	</walker_template>
+	<walker_template route_id="8F4F4B54DDBD1981" pool="1">
+		<routestep step="1" x="119.50" y="117.81" z="122.632065"/>
+		<routestep step="2" x="125.93" y="116.27" z="119.632065"/>
+		<routestep step="3" x="132.46" y="116.00" z="118.24958"/>
+	</walker_template>	
+</npc_walker>

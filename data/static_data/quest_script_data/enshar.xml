@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+    <!--
+    [BEGIN] SUMMARY			   
+		20500 [SCR] Enshar Expedition
+		20501 [scr] What the Ruins Say
+		20502 [scr] Evolving Mysteries
+		20503 [scr] Ancient, Evil Plans
+		20504 [scr] Tiamat's Shadow
+		20505 [scr] Ancient Crystal
+		20506 [scr] Muscle over Mind
+		20507 [scr] It's Worse than We Thought	
+		25000 [scr] Getting to Know You
+		25001 [XML] Shell Out
+		25002 [SCR] Kill the Kerubs
+		25010 [SCR] Ruin Research Relief
+		25012 [XML] Big Scale Research
+		25013 [XML] Seaweed Procede
+		25020 [SCR] Tejhi Technology
+		25022 [SCR] Soup De Cure
+		25023 [SCR] Sprouting Developments
+		25030 [SCR] Clues from the Undead
+		25031 [SCR] The Tejhi Ghost
+		25032 [SCR] Avenge Varnur
+		25033 [SCR] Mouths to Feed
+		25050 [SCR] Treasure in the Deep Sea
+		25051 [SCR] Treasure of Ancient Kings
+		25052 [SCR] An Offering of Peace
+		25060 [SCR] Take Down the Barricade
+		25062 [SCR] Ominous Advice
+		25070 [SCR] Truth of the Crystal
+		25073 [SCR] No Revival for the Balaur
+		25080 [XML] Hot Shards!
+		25081 [XML] Red Coral Delights
+		25082 [SCR] Tyrant Take Out
+		25084 [SCR] Is This a Trap?
+		25085 [XML] Intercept the Ide
+		25090 [SCR] They Chose Poorly
+		25091 [XML] The More You Know...
+		25092 [XML] Pontificating Possible Power
+		25093 [SCR] A Royal Target
+		25094 [XML] An Offering of Friendship
+		25201 [SCR] Tejhi Termination
+		25202 [SCR] Tejhi Tasks
+		25203 [SCR] Creatures of Cloudtalon Valley
+		25204 [SCR] [Daily] Elyos in Enshar?
+		25205 [XML] Boss Toss
+		25210 [XML] Melzirinerk's Tempting Proposal
+		25211 [XML] Pekrunerk's Enticing Proposal
+		25212 [XML] Moterinerk's Enticing Proposal
+		25213 [XML] Are Ya Feelin' Lucky?
+		25215 [XML] [Daily]Securing Leviathan's Ruin
+		25216 [XML] [Daily] Securing Wavehollow Brink
+		25217 [XML] [Daily] Securing Cloudtalon Valley
+		25220 [SCR] [Daily] Arden Not Your Heart
+		25221 [SCR] [Daily] Ready Cet Go
+		25222 [SCR] [Daily] Embracing Bomire
+		25230 [XML] Treasure Box Keys
+		25231 [XML] Treasure Crate Keys
+		25232 [XML] Treasure Chest Keys
+		28970 [SCR] Opening Corridors
+		28971 [SCR] [Weekly] Disputed Territory Defense
+		
+    [END] SUMMARY
+    -->	
+	<!-- REPORTING QUESTS -->	
+	<!-- COLLECTING QUESTS -->
+	<item_collecting id="25001" start_npc_ids="804901" end_npc_ids="804902" action_item_ids="702749" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25012" start_npc_ids="804906" end_npc_ids="804905" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25013" start_npc_ids="804907" end_npc_ids="804907" action_item_ids="702750" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25210" start_npc_ids="805044" end_npc_ids="805044"/>
+	<item_collecting id="25211" start_npc_ids="805045" end_npc_ids="805045"/>
+	<item_collecting id="25212" start_npc_ids="805046" end_npc_ids="805046"/>
+	<item_collecting id="25213" start_npc_ids="805262" end_npc_ids="805262"/>	
+	<item_collecting id="25080" start_npc_ids="804922" end_npc_ids="804922" action_item_ids="702751" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25081" start_npc_ids="804922" end_npc_ids="804922" action_item_ids="702752" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25085" start_npc_ids="804922" end_npc_ids="804927" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25091" start_npc_ids="804738" end_npc_ids="804738" start_dialog_id="4762" start_dialog_id2="1011"/>	
+	<item_collecting id="25092" start_npc_ids="804739" end_npc_ids="804929" start_dialog_id="4762" start_dialog_id2="1011"/>	
+	<item_collecting id="25094" start_npc_ids="804929" end_npc_ids="804929" action_item_ids="702768" start_dialog_id="4762" start_dialog_id2="1011"/>	
+	<item_collecting id="25215" start_npc_ids="804927" end_npc_ids="804927" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25216" start_npc_ids="804927" end_npc_ids="804927" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25217" start_npc_ids="804927" end_npc_ids="804927" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="25230" start_npc_ids="805226" end_npc_ids="805226"/>
+	<item_collecting id="25231" start_npc_ids="805226" end_npc_ids="805226"/>
+	<item_collecting id="25232" start_npc_ids="805226" end_npc_ids="805226"/>
+
+	<!-- HUNTING QUESTS -->
+	<!-- OTHERS -->
+	<fountain_rewards id="25205" start_npc_ids="804759"/>
+</quest_scripts>

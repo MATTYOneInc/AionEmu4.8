@@ -1,0 +1,107 @@
+/*
+  * This file is part of Aion-Core (Aion-Core Developer Community) <aion-core.net>
+  *
+  * This is free software: you can redistribute it and/or modify
+  * it under the terms of the GNU Lesser Public License as published by
+  * the Free Software Foundation, either version 3 of the License, or
+  * (at your option) any later version.
+  *
+  * This software is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  * GNU Lesser Public License for more details.
+  *
+  * You should have received a copy of the GNU Lesser Public License
+  * along with this software.  If not, see <http://www.gnu.org/licenses/>.
+  *  ========================================================================================================			
+  * GNU General Public License, version 3 (GPL-3.0)
+  * ========================================================================================================
+  * 	Credits
+  *
+  *		The following are credits for all contributions to the Aion Emulator projects.
+  *     The Aion Emulator has since 2009, a long history, so it's hard to compile a list of every people have done something for it.
+  *     Below is a snapshot list of those who have contributed to the source code. 
+  *     If you know anyone who has significantly contributed to these projects please let me know.
+  *
+  *     We appreciate the work everyones which has contributed to the these projects.
+  *     The best MMORPG Emulator it wouldn't exist without you.
+  * =======================================================================================================
+  * ======================
+  *		Aion Emulator Developer Teams since 2009:
+  * ======================
+  *		Programming Language: JAVA,XML,SQL
+  *		Credits published by Aion-Core: http://www.aion-core.net/emucredits.txt
+  * =======================================================================================================
+  * ------------------------------------------------------------------------------------------------------ 
+  * 	Aion Emulator Developer Groups and most important Core releases:
+  * ------------------------------------------------------------------------------------------------------- 
+  *	
+  *	[*] - Aion-Emu (Open Source)
+  *	[*] - Aion-Unique (1.5) (Open Source)
+  *	[*] - Aion-Lighting 2.0 (Open Source)
+  *	[*] - Aion-Lighting 2.1 (> Closed Source)
+  *	[*] - AionChs (2.1) (> Closed Source)
+  *	[*] - ZettaCore 2.1-2.5 (> Closed Source)
+  *	[*] - Aion-Engine (2.1, 2.5) (> Closed Source)
+  *	[*] - AionX Emu (2.1) (Open Source)
+  *	[*] - Open-Aion (2.5) (Open Source)
+  *	[*] - Aion-Extreme (2.5-2.7-3.0)(> Closed Source)
+  *	[*] - Aion-Lighting 2.7 (> Closed Source)
+  *	[*] - Aion-Legends 2.5/2.7 (> Closed Source)
+  *	[*] - Aion NexGen (3.5-3.9)(> Closed Source)
+  *	[*] - Aion-Extreme (3.7-3.9)(> Closed Source)
+  *	[*] - Aion-Lighting 4.0 (> Closed Source)
+  *	[*] - Aion-Lighting 4.3 (> Closed Source)
+  *	[*] - AL-Reload 4.5 (Open Source)
+  *	[*] - AL German Group 4.6 (Open Source)
+  * [*] - AL German Group 4.7 (> Developers Source) //- Compiled Aion Server Package (2014-2015)
+  * [*] - Aion-Core 4.7 (> Developers Source) //- Compiled Aion Server Package //- Developer Community (2014-2015)
+  * [*] - Aion-Core 4.8 (> Developers Source) //- Compiled Aion Server Package //- Developer Community (2015)
+  *
+  * -------------------------------------------------------
+  *     	Know Project managers:
+  * =======================================================*
+  *		Aion Unique = Atracer
+  *		Aion Lightning = Tibald
+  *		Zeta Core =
+  *		Aion-Engine = Magenik
+  *		AionCore =  rexxar
+  *		Aion x Emu = crash override
+  *		Aion Extreme = Dallas
+  *		Aion Legends = Navyan
+  *		AL-Reload = aion_override
+  *     AL German Group = Falke_34
+  *     Aion-Core Community = Voidstar
+  * -------------------------------------------------------
+  * 		Know develeopers 
+  * =======================================================
+  *
+  *- SoulKeeper	 	- PZIKO333	 - RotO		  	- Watson 	    - Arkshadow	 	- Dex  			- Voidstar
+  *- ATracer	  	- GosthMan	 - SuneC	  	- Wylovech		- Lord_rex		- Kamui			- Alcapwnd
+  *- KKnD	        - Orpheo	 - Dallas	  	- Tanelorn		- Simple	  	- Source		- Kill3r
+  *- Pinguin	  	- Blakawk	 - Jego		  	- Nemiroff		- Alexa026		- LokiReborn	- Ever	
+  *- Mr.Poke 		- Nemesiss	 - Jjhun	  	- Avol		  	- Rhys2002		- Nephis		- Falke_34
+  *- Sarynth	  	- Vial		 - Rolandas    	- Kosyachok		- Dragoon112   	- zeroPatches	- aion_override
+  *- Kecimis	  	- Divinity	 - Luno	        - Ginho1	  	- IlBuono	  	- Holgrabus		- Eloann
+  *- Magenik        - Ritsu      - Navyan 		- Sphinx	    - Disturbing    - Sweetkr		- Lilith
+  *- Srx47		  	- HellBoy	 - LokiReborn 	- Aquanox	  	- Ben			- bbforce	  	
+  *- Dns		    - Cura 		 - EvilSpirit	- Lyahim	 	- Orz			- Destin
+  *- kaipo   		- xTz	     - ZeroSignal	- Khaos			- Core	
+  * ----------------------------------------------
+  *			Actual Relased version: Aion-Emulator 4.8 (no OPEN-SOURCE)
+  * ==============================================
+  *
+  *			NOTE:
+  *			There are only Aion Emulator freelancer Developers, or Developer groups, which participated to OPEN-SOURCE
+  *
+  *--------------------------------------------------------------------------------------------------------
+  * 		Disclaimer
+  * ----------------------------------------------
+  * Any modified copy of this "Aion-Emu-Credits" uploaded to any other host, except Aion-Core.net or Aion-Core.com, can be considerated a fake
+  * do some people they wish to assume some credits they maybe not deserve.
+  * Aion Core accepts no responsibility for the accuracy, reliability or completeness of the contents above.
+  * ========================================================================================================
+  * Writen on: 08/2012
+  * Updated on:09/2015
+  * support@aion-core.net
+  */

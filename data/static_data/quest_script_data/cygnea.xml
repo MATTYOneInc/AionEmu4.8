@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quest_scripts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="quest_script_data.xsd">
+    <!--
+    [BEGIN] SUMMARY
+		10500 [SCR] Expedition Coalition
+		10501 [SCR] Research the Ruins
+		10502 [SCR] Cygnea Secrets
+		10503 [SCR] Guard Down, Secrets Out
+		10504 [SCR] Confiscate the Slate
+		10505 [SCR] Sneeze Attack
+		10506 [SCR] Mind Over Matter
+		10507 [SCR] A Big Plot to Foil		
+		15000 [SCR] Not Any Fool's Tool
+		15001 [SCR] Lending Both Hands
+		15002 [XML] Cold Hands, Warm Luciferin
+		15010 [XML] Grabbin' Grub
+		15011 [XML] Flowers for Bilogea
+		15012 [SCR] Corral the Coral Horns
+		15013 [UNUSED] Plant Research
+		15014 [XML] Discord Among the Scholars
+		15020 [SCR] La Fin De Black Fin Tribe
+		15021 [XML] Hooch Mooch
+		15022 [XML] A Reward for the Sword		
+		15023 [UNUSED] An Important Figure of the Yuns (Call of Garnon)
+		15024 [UNUSED] Assisting the Yuns
+		15025 [UNUSED] Akula's Accessory
+		15030 [UNUSED] [Group] Area Guide Quest
+		15031 [UNUSED] [Group] Time and Space and Investigation
+		15032 [UNUSED] [Group] Eradicate Group Area Monsters
+		15033 [UNUSED] [Group] Eliminate a Named Monster		
+		15034 [UNUSED] [Group] Violent Tyrant Squall		
+		15040 [UNUSED] Cursed Klaw		
+		15041 [SCR] Flak from the Brohum
+		15042 [SCR] Calling Kaisinel's Butterfly
+		15043 [XML] Shiny Spiner Stuff
+		15044 [XML] Drana Seed Deed		
+		15050 [SCR] Guardians in the Gardens
+		15051 [UNUSED] A Face-Off With Beritra's Watcher Unit
+		15052 [XML] What's in the Box in the Box?
+		15053 [XML] All the Wondrous Treasures		
+		15054 [UNUSED] I Just Don't Like the Way It Looks
+		15060 [SCR] The Adversity with Averse
+		15061 [UNUSED] Missing Yunish Sisters (Seed of the Black Tree)
+		15062 [SCR] Kill the Corasks
+		15065 [SCR] Knock Out the Nagarants
+		15066 [XML] Work Hard for the Shard
+		15070 [XML] Shelling Out Crystals
+		15071 [XML] No Notebook for Noep
+		15072 [XML] Head Remedy		
+		15073 [SCR] Perennial Struggles
+		15074 [SCR] Sheluk Amuck
+		15080 [UNUSED] I Area Guide Quest
+		15081 [UNUSED] Eliminate Balaur Followers' Gorgon
+		15082 [UNUSED] Eradicate the Tipolids
+		15083 [UNUSED] [Group] Eliminate Sunayaka
+		15090 [UNUSED] [Group] Lead to the Gap of Coldness
+		15091 [UNUSED] [Group] Chill-Induced Mutants
+		15092 [UNUSED] [Group] Beritra Research Base
+		15093 [UNUSED] [Group] Time and Space and Contribution Quest
+		15100 [SCR] Desert Vermin
+		15101 [SCR] Time For Your Close Up
+		15102 [XML] The Creeping Desert
+		15103 [XML] The Collector
+		15104 [SCR] Landshark!		
+		15200 [XML] A Token of Victory
+		15201 [SCR] [Repeat] The Black Fin Threat
+		15202 [SCR] [Repeat] Take out the Elites
+		15203 [SCR] [Repeat] Dangerous Wildlife
+		15204 [SCR] [Daily/Repeat] Sending a Message
+		15205 [XML] Cygnea Fountain of Luck
+		15210 [XML] Medal Morph
+		15211 [XML] Mighty Morphing Medals
+		15212 [XML] Medals Make Medals, Maybe?
+		15213 [XML] Feelin' Lucky?
+		15215 [XML] [Daily] The Briar Bout
+		15216 [XML] [Daily] Clear the Cavern
+		15217 [XML] [Daily] Black Fin Fracas
+		15220 [SCR] [Daily] Help in Henor
+		15221 [SCR] [Daily] Aedra Altercation
+		15222 [SCR] [Daily] Erivale Expunge
+		15223 [SCR] [Spy/Daily] Enter Enshar
+		15224 [SCR] [Spy/Daily] Set for Cet
+		15225 [SCR] [Spy/Daily] Down to the Bomire Wire
+		15230 [XML] Keys Please
+		15231 [XML] Key Decree
+		15232 [XML] Honor Thee Key
+		18970 [SCR] The Corridor Lore
+		18971 [SCR] [Weekly] Help Hold the Lines		
+		25200 [XML] Break Elyos, Take Token	
+		25223 [SCR] [Spy/Daily] Head to Henor
+		25224 [SCR] [Spy/Daily] Aedra Attack
+		25225 [SCR] [Spy/Daily] Assail Erivale
+	[END] SUMMARY
+	-->
+	<!-- REPORTING QUESTS -->
+	
+	<!-- COLLECTING QUESTS	-->
+	<item_collecting id="15002" start_npc_ids="804698" end_npc_ids="804698" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15010" start_npc_ids="804700" end_npc_ids="804700" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15011" start_npc_ids="804875" end_npc_ids="804875" action_item_ids="702730" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15013" start_npc_ids="804875" end_npc_ids="804875" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15021" start_npc_ids="804877" end_npc_ids="804877" action_item_ids="702731" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15022" start_npc_ids="804878" end_npc_ids="804878" action_item_ids="702732" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15043" start_npc_ids="804886" end_npc_ids="804886" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15044" start_npc_ids="804887" end_npc_ids="804887" action_item_ids="702737" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15052" start_npc_ids="804888" end_npc_ids="804888" action_item_ids="702738" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15053" start_npc_ids="804888" end_npc_ids="804888" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15066" start_npc_ids="804889" end_npc_ids="804889" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15070" start_npc_ids="804891" end_npc_ids="804891" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15071" start_npc_ids="804709" end_npc_ids="804709" action_item_ids="702739" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15072" start_npc_ids="804890" end_npc_ids="804890" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15102" start_npc_ids="804895" end_npc_ids="804895" action_item_ids="702740" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15103" start_npc_ids="804896" end_npc_ids="804896" action_item_ids="702741" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15210" start_npc_ids="805133" end_npc_ids="805133"/>
+	<item_collecting id="15211" start_npc_ids="805134" end_npc_ids="805134"/>
+	<item_collecting id="15212" start_npc_ids="805135" end_npc_ids="805135"/>
+	<item_collecting id="15213" start_npc_ids="805261" end_npc_ids="805261"/>
+	<item_collecting id="15215" start_npc_ids="804709" end_npc_ids="804709" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15216" start_npc_ids="804709" end_npc_ids="804709" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15217" start_npc_ids="804709" end_npc_ids="804709" start_dialog_id="4762" start_dialog_id2="1011"/>
+	<item_collecting id="15230" start_npc_ids="805222" end_npc_ids="805222"/>
+	<item_collecting id="15231" start_npc_ids="805222" end_npc_ids="805222"/>
+	<item_collecting id="15232" start_npc_ids="805222" end_npc_ids="805222"/>
+	
+	
+	<!-- HUNTING QUESTS -->
+	<!-- OTHERS -->
+	<fountain_rewards id="15205" start_npc_ids="804788"/>
+	<item_order id="15200" start_item_id="182215750" end_npc_id="804699"/>
+	<item_order id="25200" start_item_id="182215751" end_npc_id="804719"/>
+</quest_scripts>

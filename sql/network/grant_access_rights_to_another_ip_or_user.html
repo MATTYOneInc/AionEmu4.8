@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Unbenanntes Dokument</title>
+<style type="text/css">
+body,td,th {
+	color: #000;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+body {
+	background-color: #FC9;
+}
+</style>
+</head>
+
+<body>
+<p>=================================================================================================== <br />
+  Some useful query's to run in your MySQL Console (Navicat)<br />
+  ===================================================================================================</p>
+<p>GRANT ACCESS RIGHTS TO ANOTHER IP ADRESS as LOCALHOST - 127.0.0.1<br />
+  As example the default MySQL user: root</p>
+<p>New IP ADDRESS - your LAN IP: 192.168.2.20, just for the two databases;AC_47_server_gs and AC_47_server_ls</p>
+<p><code>grant all privileges on AC_47_server_gs.* to 'root'@192.168.2.20' identified by 'OMG_tHis_is_mYpAssW0Rd##';<br />
+  grant all privileges on AC_47_server_ls.* to 'root'@'192.168.2.20' identified by 'OMG_tHis_is_mYpAssW0Rd##';<br />
+  flush privileges<br />
+  quit</code></p>
+<p>New IP ADDRESS - your LAN IP: 192.168.2.20, just for ALL databases on your MySQL server.</p>
+<p><code>grant all privileges on *.* to 'root'@192.168.2.20' identified by 'OMG_tHis_is_mYpAssW0Rd##';<br />
+  flush privileges<br />
+  quit</code></p>
+<p>====================================================================================================<br />
+  GRANT ACCESS TO EXTERNAL IP ADDRESS - outside access rights to your MySQL server (example a website located on another host)<br />
+  ====================================================================================================<br />
+  Optional in your MySQL config file: my.ini or my.cnf</p>
+<p>Change MySQL’s IP binding, change;</p>
+<p>[mysqld]<br />
+  bind-address=127.0.0.1<br />
+  to<br />
+  [mysqld]<br />
+  #bind-address=127.0.0.1<br />
+  or<br />
+  bind-address=0.0.0.0<br />
+  or<br />
+  #skip-networking </p>
+<p>Restart mySQL</p>
+<p>Run this query in your MySQL Console:</p>
+<p><code>grant all privileges on *.* to 'YourName'@'%' identified by 'OMG_tHis_is_mYpAssW0Rd##';<br />
+  flush privileges<br />
+  quit</code></p>
+<p>===================<br />
+  Mady by Voidstar<br />
+  ===================<br />
+</p>
+</body>
+</html>
